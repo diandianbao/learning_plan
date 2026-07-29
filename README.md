@@ -5,7 +5,20 @@
 ## 归档来源
 
 - **电脑端**：通过 code agent 的 `learning-checkpoint` skill，对 agent 说"保存进度"/"同步"即可生成并推送
-- **手机端**（规划中）：语音记录、草稿纸/书页照片，先存原始材料，再由 agent 补总结
+- **手机端**（规划中）：语音记录（app 端用系统能力离线转写）、草稿纸/书页照片，原始材料 push 到 `attachments/`；之后对电脑端 agent 说"消化归档"，由 `learning-digest` skill 补总结生成 checkpoint
+
+## 原始材料格式
+
+手机端每次采集生成 `attachments/` 下的一个条目目录：
+
+```
+attachments/YYYY-MM-DD-HHMM/
+  meta.md         # frontmatter: created、topic（可空）、digested: false
+  transcript.md   # 语音转写文本（可选）
+  *.jpg / *.png   # 草稿纸、书页照片（可选）
+```
+
+`learning-digest` 消化后会生成对应 checkpoint（`## 上下文` 引用附件相对路径），并把 `meta.md` 的 `digested` 置为 `true`。
 
 ## Checkpoint 格式
 
