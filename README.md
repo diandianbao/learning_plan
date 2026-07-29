@@ -18,7 +18,7 @@ attachments/YYYY-MM-DD-HHMM/
   *.jpg / *.png   # 草稿纸、书页照片（可选）
 ```
 
-`learning-digest` 消化后会生成对应 checkpoint（`## 上下文` 引用附件相对路径），并把 `meta.md` 的 `digested` 置为 `true`。
+`learning-digest` 消化后会生成对应 checkpoint（`## 上下文` 引用附件相对路径），并把 `meta.md` 的 `digested` 置为 `true`。消化完成且转写确认无误后，音频文件会被删除（内容已由 `transcript.md` 承载），照片和转写文本永久保留——照片是召回时的记忆资产。
 
 ## Checkpoint 格式
 
