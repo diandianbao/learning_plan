@@ -19,7 +19,7 @@ created: 2026-08-03T20:56:11+0800
 - 配套：`新高掌-4-圆锥曲线答案.pdf`、`新高掌-4-圆锥曲线i练习.pdf`、`新高掌-4-圆锥曲线i练习答案.pdf`
 - 目录结构：2.3 后是「第2章变式参考答案」（教材 p67 / PDF 物理页 70），再后是第3章「硬计算」（教材 p73）
 - 2.3 章节截图（PDF 物理页 66-69，教材 p63-66）：
-  - [page-066.png](assets/conic-sections-2026-08-03/page-066.png)（2.3 标题起）
-  - [page-067.png](assets/conic-sections-2026-08-03/page-067.png)（2.3.1 空间中平面性质与平行垂直，变式 2.17.1）
-  - [page-068.png](assets/conic-sections-2026-08-03/page-068.png)（2.3.2 空间建系/转平面建系，变式 2.18.1、2.18.2）
-  - [page-069.png](assets/conic-sections-2026-08-03/page-069.png)（2.3.3 几何定义，圆锥截面构造图）
+  - [page-066.png](attachments/2026-08-03-2056/page-066.png)（2.3 标题起）
+  - [page-067.png](attachments/2026-08-03-2056/page-067.png)（2.3.1 空间中平面性质与平行垂直，变式 2.17.1）
+  - [page-068.png](attachments/2026-08-03-2056/page-068.png)（2.3.2 空间建系/转平面建系，变式 2.18.1、2.18.2）
+  - [page-069.png](attachments/2026-08-03-2056/page-069.png)（2.3.3 几何定义，圆锥截面构造图）
