@@ -1,5 +1,5 @@
 ---
-topic: LLVM Kaleidoscope 第2章 Parser与AST
+topic: llvm
 status: active
 source: code-agent
 created: 2026-08-05T16:23:07+0800

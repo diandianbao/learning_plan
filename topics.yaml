@@ -1,0 +1,29 @@
+# 课题清单（受控词表）
+#
+# 归档 checkpoint 时，topic 必须从这里选一个，或新增一项写进本文件。
+# 由 learning-checkpoint skill 维护；app 按 checkpoint 的 topic 字段聚合显示。
+#
+# 字段说明：
+#   name     课题名，原样展示（中英文均可，不强制 slug）
+#   status   active / dormant / archived
+#   created  课题创建时间（第一条 checkpoint 的时间）
+
+- name: llvm
+  status: active
+  created: 2026-07-29T15:24:22+0800
+
+- name: 圆锥曲线（新高掌-4）
+  status: active
+  created: 2026-08-03T20:56:11+0800
+
+- name: 2048 AI CMA-ES 参数调优
+  status: active
+  created: 2026-08-03T20:48:30+0800
+
+- name: learning_hook
+  status: active
+  created: 2026-08-03T20:40:57+0800
+
+- name: arch-doc-parser
+  status: active
+  created: 2026-08-03T20:37:24+0800
