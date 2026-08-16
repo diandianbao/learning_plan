@@ -27,3 +27,7 @@
 - name: arch-doc-parser
   status: active
   created: 2026-08-03T20:37:24+0800
+
+- name: ComfyUI 视频生成
+  status: active
+  created: 2026-08-16T15:29:19+0800
